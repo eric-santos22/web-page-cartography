@@ -1,0 +1,15 @@
+[workspace]
+authors = ["eric-santos22 <ericduarteds@gmail.com>"]
+channels = ["conda-forge"]
+name = "pagina_web"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+streamlit = ">=1.57.0,<2"
+matplotlib = ">=3.10.9,<4"
+leafmap = ">=0.61.1,<0.62"
+pandas = ">=3.0.2,<4"
+geopy = ">=2.4.1,<3"
